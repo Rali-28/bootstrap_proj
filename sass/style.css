@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10990,6 +10991,11 @@ footer img {
 
 footer p, h1, .h1 {
   font-family: NorthernPassage;
+  color: #caa760;
+}
+
+#link-icons i {
+  font-size: 1.5em;
   color: #caa760;
 }
 

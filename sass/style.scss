@@ -1,4 +1,5 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 /* Color Schemes */
 $bg-theme: #262b24;
@@ -81,6 +82,12 @@ footer img
 footer p, h1
 {
     font-family: NorthernPassage;
+    color: $lt-theme;
+}
+
+#link-icons i
+{
+    font-size: 1.5em;
     color: $lt-theme;
 }
 /* Footer End */
