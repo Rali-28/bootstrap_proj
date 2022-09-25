@@ -79,15 +79,25 @@ footer img
     width: 200px;
 }
 
-footer p, h1
+// tbody
+// {
+//     border-color:  $lt-theme;
+// }
+    
+footer p, h1, li, tr
 {
     font-family: NorthernPassage;
-    color: $lt-theme;
+    color: white;
 }
 
-#link-icons i
+footer li, tr
+{
+    font-size: 20px;
+}
+
+footer i
 {
     font-size: 1.5em;
-    color: $lt-theme;
+    color: white;
 }
 /* Footer End */

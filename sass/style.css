@@ -10989,14 +10989,18 @@ footer img {
   width: 200px;
 }
 
-footer p, h1, .h1 {
+footer p, h1, .h1, li, tr {
   font-family: NorthernPassage;
-  color: #caa760;
+  color: white;
 }
 
-#link-icons i {
+footer li, tr {
+  font-size: 20px;
+}
+
+footer i {
   font-size: 1.5em;
-  color: #caa760;
+  color: white;
 }
 
 /* Footer End *//*# sourceMappingURL=style.css.map */
