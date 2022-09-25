@@ -10930,19 +10930,19 @@ textarea.form-control-lg {
   }
 }
 /* Color Schemes */
-/* End */
+/* Colors End */
 /* Fonts */
 @font-face {
   font-family: NorthernPassage;
   src: url("/fonts/NorthernPassage-Regular.otf");
 }
-/* End */
+/* Fonts End */
 /* General Styling */
 body {
   padding: 0px;
 }
 
-/* End */
+/* General End */
 /* Navbar Styling */
 .navbar {
   background-color: #262b24;
@@ -10978,4 +10978,19 @@ body {
   width: 200px;
 }
 
-/* End *//*# sourceMappingURL=style.css.map */
+/* Navbar End */
+/* Footer */
+footer {
+  background-color: #262b24;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer p, h1, .h1 {
+  font-family: NorthernPassage;
+  color: #caa760;
+}
+
+/* Footer End *//*# sourceMappingURL=style.css.map */

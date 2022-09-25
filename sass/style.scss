@@ -3,7 +3,7 @@
 /* Color Schemes */
 $bg-theme: #262b24;
 $lt-theme: #caa760;;
-/* End */
+/* Colors End */
 
 
 /* Fonts */
@@ -12,7 +12,7 @@ $lt-theme: #caa760;;
     font-family: NorthernPassage;
     src: url("/fonts/NorthernPassage-Regular.otf");
 }
-/* End */
+/* Fonts End */
 
 /* General Styling */
 
@@ -21,7 +21,7 @@ body
     padding: 0px;
 }
 
-/* End */
+/* General End */
 
 /* Navbar Styling */
 .navbar
@@ -65,4 +65,22 @@ body
     width: 200px;
 }
 
-/* End */
+/* Navbar End */
+
+/* Footer */
+footer
+{
+    background-color: $bg-theme;
+}
+
+footer img
+{
+    width: 200px;
+}
+
+footer p, h1
+{
+    font-family: NorthernPassage;
+    color: $lt-theme;
+}
+/* Footer End */
