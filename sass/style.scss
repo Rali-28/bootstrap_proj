@@ -1,1 +1,68 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Color Schemes */
+$bg-theme: #262b24;
+$lt-theme: #caa760;;
+/* End */
+
+
+/* Fonts */
+@font-face 
+{
+    font-family: NorthernPassage;
+    src: url("/fonts/NorthernPassage-Regular.otf");
+}
+/* End */
+
+/* General Styling */
+
+body
+{
+    padding: 0px;
+}
+
+/* End */
+
+/* Navbar Styling */
+.navbar
+{
+    background-color: $bg-theme;
+}
+
+.custom-toggler .navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202,167,96, 10)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler 
+{
+    border-color: $lt-theme;
+    color: $lt-theme;
+} 
+
+.navbar-brand
+{
+    margin-right: 0;
+    padding: 0 1em;
+}
+
+.navbar-nav
+{
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link
+{
+    color: #caa760;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: NorthernPassage;
+    padding: .1 1em;
+}
+
+.navbar-brand img
+{
+    width: 200px;
+}
+
+/* End */

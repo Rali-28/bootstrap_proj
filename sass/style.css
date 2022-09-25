@@ -10928,4 +10928,54 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/* Color Schemes */
+/* End */
+/* Fonts */
+@font-face {
+  font-family: NorthernPassage;
+  src: url("/fonts/NorthernPassage-Regular.otf");
+}
+/* End */
+/* General Styling */
+body {
+  padding: 0px;
+}
+
+/* End */
+/* Navbar Styling */
+.navbar {
+  background-color: #262b24;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202,167,96, 10)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #caa760;
+  color: #caa760;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding: 0 1em;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #caa760;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: NorthernPassage;
+  padding: 0.1 1em;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+/* End *//*# sourceMappingURL=style.css.map */
