@@ -10949,6 +10949,10 @@ body {
   background-color: #262b24;
 }
 
+.navbar-nav {
+  align-items: center;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202,167,96, 10)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -10956,15 +10960,6 @@ body {
 .custom-toggler.navbar-toggler {
   border-color: #caa760;
   color: #caa760;
-}
-
-.navbar-brand {
-  margin-right: 0;
-  padding: 0 1em;
-}
-
-.navbar-nav {
-  align-items: center;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -10977,6 +10972,11 @@ body {
 
 .navbar-brand img {
   width: 200px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding: 0 1em;
 }
 
 /* Navbar End */
@@ -10994,13 +10994,18 @@ footer p, h1, .h1, li, tr {
   color: white;
 }
 
-footer li, tr {
-  font-size: 20px;
+footer li, tr, i {
+  font-size: 1.1em;
+  color: white;
 }
 
-footer i {
-  font-size: 1.5em;
-  color: white;
+#copyright {
+  background-color: #caa760;
+}
+
+#copyright span {
+  color: #262b24;
+  font-family: NorthernPassage;
 }
 
 /* Footer End *//*# sourceMappingURL=style.css.map */
