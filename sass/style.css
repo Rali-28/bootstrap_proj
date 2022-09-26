@@ -10935,7 +10935,7 @@ textarea.form-control-lg {
 /* Fonts */
 @font-face {
   font-family: NorthernPassage;
-  src: url("/fonts/NorthernPassage-Regular.otf");
+  src: url("../fonts/NorthernPassage-Regular.otf");
 }
 /* Fonts End */
 /* General Styling */
