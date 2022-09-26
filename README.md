@@ -7,3 +7,6 @@ color palette:
 
 Fonts: 
     Northern Passage - Regular
+
+For unknown reasons Bootrap Icons and Custom Fonts
+are not shown on github pages.
