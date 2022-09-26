@@ -1,9 +1,10 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 /* Color Schemes */
 $bg-theme: #262b24;
-$lt-theme: #caa760;;
-/* End */
+$lt-theme: #caa760;
+/* Colors End */
 
 
 /* Fonts */
@@ -12,7 +13,7 @@ $lt-theme: #caa760;;
     font-family: NorthernPassage;
     src: url("/fonts/NorthernPassage-Regular.otf");
 }
-/* End */
+/* Fonts End */
 
 /* General Styling */
 
@@ -21,14 +22,21 @@ body
     padding: 0px;
 }
 
-/* End */
+/* General End */
 
 /* Navbar Styling */
+// navbar bg
 .navbar
 {
     background-color: $bg-theme;
 }
 
+.navbar-nav
+{
+    align-items: center;
+} // end
+
+// navbar collapsible button style
 .custom-toggler .navbar-toggler-icon
 {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202,167,96, 10)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -38,19 +46,9 @@ body
 {
     border-color: $lt-theme;
     color: $lt-theme;
-} 
+} // end
 
-.navbar-brand
-{
-    margin-right: 0;
-    padding: 0 1em;
-}
-
-.navbar-nav
-{
-    align-items: center;
-}
-
+// navbar links style
 .navbar .navbar-nav .nav-link
 {
     color: #caa760;
@@ -58,11 +56,58 @@ body
     font-weight: 600;
     font-family: NorthernPassage;
     padding: .1 1em;
-}
+} // end
 
+// navbar brand style
 .navbar-brand img
 {
     width: 200px;
+} 
+
+.navbar-brand
+{
+    margin-right: 0;
+    padding: 0 1em;
+} // end
+
+/* Navbar End */
+
+/* Footer */
+
+// general footer
+footer
+{
+    background-color: $bg-theme;
 }
 
-/* End */
+// Footer images styles
+footer img
+{
+    width: 200px;
+} // end
+
+// Footer texts styles
+footer p, h1, li, tr
+{
+    font-family: NorthernPassage;
+    color: white;
+}
+
+footer li, tr, i
+{
+    font-size: 1.1em;
+    color: white;
+} // end
+
+// copyright styles
+#copyright
+{
+    background-color: $lt-theme;
+}
+
+#copyright span
+{
+    color: $bg-theme;
+    font-family: NorthernPassage;
+} // end
+/* Footer End */

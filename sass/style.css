@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10930,22 +10931,26 @@ textarea.form-control-lg {
   }
 }
 /* Color Schemes */
-/* End */
+/* Colors End */
 /* Fonts */
 @font-face {
   font-family: NorthernPassage;
   src: url("/fonts/NorthernPassage-Regular.otf");
 }
-/* End */
+/* Fonts End */
 /* General Styling */
 body {
   padding: 0px;
 }
 
-/* End */
+/* General End */
 /* Navbar Styling */
 .navbar {
   background-color: #262b24;
+}
+
+.navbar-nav {
+  align-items: center;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -10955,15 +10960,6 @@ body {
 .custom-toggler.navbar-toggler {
   border-color: #caa760;
   color: #caa760;
-}
-
-.navbar-brand {
-  margin-right: 0;
-  padding: 0 1em;
-}
-
-.navbar-nav {
-  align-items: center;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -10978,4 +10974,38 @@ body {
   width: 200px;
 }
 
-/* End *//*# sourceMappingURL=style.css.map */
+.navbar-brand {
+  margin-right: 0;
+  padding: 0 1em;
+}
+
+/* Navbar End */
+/* Footer */
+footer {
+  background-color: #262b24;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer p, h1, .h1, li, tr {
+  font-family: NorthernPassage;
+  color: white;
+}
+
+footer li, tr, i {
+  font-size: 1.1em;
+  color: white;
+}
+
+#copyright {
+  background-color: #caa760;
+}
+
+#copyright span {
+  color: #262b24;
+  font-family: NorthernPassage;
+}
+
+/* Footer End *//*# sourceMappingURL=style.css.map */
