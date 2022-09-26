@@ -10944,9 +10944,16 @@ body {
 }
 
 /* General End */
-/* Navbar Styling */
-.navbar {
+/* Header */
+header {
   background-color: #262b24;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: NorthernPassage;
+}
+
+header h1, header .h1, h2, .h2 {
+  color: #caa760;
 }
 
 .navbar-nav {
@@ -10964,9 +10971,6 @@ body {
 
 .navbar .navbar-nav .nav-link {
   color: #caa760;
-  font-size: 1.5em;
-  font-weight: 600;
-  font-family: NorthernPassage;
   padding: 0.1 1em;
 }
 
@@ -10979,7 +10983,13 @@ body {
   padding: 0 1em;
 }
 
-/* Navbar End */
+#banner {
+  text-align: center;
+}
+
+/* Header End */
+/* Content */
+/* Content End */
 /* Footer */
 footer {
   background-color: #262b24;

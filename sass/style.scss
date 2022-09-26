@@ -24,13 +24,25 @@ body
 
 /* General End */
 
-/* Navbar Styling */
-// navbar bg
-.navbar
+
+
+/* Header */
+
+// header general styles
+header
 {
     background-color: $bg-theme;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: NorthernPassage; 
 }
 
+header h1, h2
+{
+    color: $lt-theme;
+}
+
+// Navbar general
 .navbar-nav
 {
     align-items: center;
@@ -51,10 +63,7 @@ body
 // navbar links style
 .navbar .navbar-nav .nav-link
 {
-    color: #caa760;
-    font-size: 1.5em;
-    font-weight: 600;
-    font-family: NorthernPassage;
+    color: $lt-theme;
     padding: .1 1em;
 } // end
 
@@ -70,7 +79,17 @@ body
     padding: 0 1em;
 } // end
 
-/* Navbar End */
+// Banner Styles
+#banner
+{
+    text-align: center;
+}
+
+/* Header End */
+
+/* Content */
+
+/* Content End */
 
 /* Footer */
 

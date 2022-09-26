@@ -12,41 +12,115 @@
 
 <body>
   <div class="container-fluid p-0"> 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md">
-      <div class="container-fluid">
-        <a class="navbar-brand d-md-none" href="#"><img src="images/logo-br.png" alt=""></a>
 
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsible Navbar & navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ACTIVITIES</a>
-            </li>
-
-            <a class="navbar-brand d-none d-md-block" href="#"><img src="images/logo-br.png" alt=""></a>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar End -->
+    <!-- Header -->
+    <header class="container-fluid p-0">
     
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand d-md-none" href="#"><img src="images/logo-br.png" alt=""></a>
+
+          <!-- Collapsible Navbar & navbar links -->
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ACTIVITIES</a>
+              </li>
+
+              <a class="navbar-brand d-none d-md-block" href="#"><img src="images/logo-br.png" alt=""></a>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Collapsible End -->
+        </div>
+      </nav>
+      <!-- Navbar End -->
+    
+      <!-- Welcome Banner -->
+      <div class="container-sm p-5 text-center text-md-start" id="banner">
+        <h1 class="m-0 text-center">the great outdoor</h1>
+      </div>
+      <!-- Banner End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content -->
+    <div class="container-fluid">
+      <div class="row p-2">
+
+        <!-- Column 1 -->
+        <div class="col-sm">
+          <!-- Card -->
+          <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                  Me
+                </h5>
+                <p class="card-text">
+                  A Creator
+                </p>
+                <a href="#" class="btn btn-warning" onclick="testAlert()">Don't Click!</a>
+              </div>
+          </div>
+          <!-- Card End -->
+        </div>
+        <!-- Col 1 End -->
+
+        <!-- Column 2 -->
+        <div class="col-sm-6">
+          <!-- Card -->
+          <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                  Myself
+                </h5>
+                <p class="card-text">
+                  A Creator
+                </p>
+                <a href="#" class="btn btn-danger" onclick="testAlert()">Seriously</a>
+              </div>
+          </div>
+          <!-- Card End -->
+        </div>
+        <!-- Col 2 End -->
+
+        <!-- Column 3 -->
+        <div class="col-sm">
+          <!-- Card -->
+          <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">
+                  I
+                </h5>
+                <p class="card-text">
+                  A Creator
+                </p>
+                <a href="#" class="btn btn-warning" onclick="testAlert()">Don't</a>
+              </div>
+          </div>
+          <!-- Card End -->
+        </div>
+        <!-- Col 3 End -->
+
+      </div>
+    </div>
+    <!-- Content End -->
+
     <!-- Footer -->
-    <footer class="text-white text-center text-md-start">
+    <footer class="text-white text-center text-md-start pt">
 
       <!-- Grid Container -->
       <div class="container p-4">
@@ -84,7 +158,7 @@
               </li>
             </ul>
           </div>
-          <!-- Grid Column -->
+          <!-- End -->
   
           <!-- Grid Column 2-->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
@@ -103,7 +177,7 @@
             </ul>
           </div>
           <!-- End -->
-  
+
           <!-- Grid Column 3-->
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h1 class="text-uppercase ">Opening hours</h1>
@@ -144,5 +218,10 @@
 
   <!-- Bootstrap JS/Popper -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Local Script -->
+  <script src="app.js">
+    
+  </script>
 </body>
 </html>
