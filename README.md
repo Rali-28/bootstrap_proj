@@ -8,8 +8,12 @@ color palette:
 Fonts: 
     Northern Passage - Regular
 
-For unknown reasons Bootrap Icons and Custom Fonts
-are not shown on github pages. Collapsible Button is
-also not responding.
+Issues Found when Accessing via Github Pages:
+
+* Mozilla Firefox, Google Chrome, Microsoft Edge
+    - Collapsible Button is not working, does not show 
+      the collapsible navbar
+    - Does not show Bootstrap Icons
+
 
 Shows just fine when accessed via local folder.
