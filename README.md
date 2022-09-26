@@ -10,3 +10,5 @@ Fonts:
 
 For unknown reasons Bootrap Icons and Custom Fonts
 are not shown on github pages.
+
+Shows just fine when accessed via local folder.
